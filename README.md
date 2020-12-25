@@ -25,7 +25,7 @@ Future Improvements
 - Customer locates recall item and scans/inputs UPC(or UDI for Medical Recalls) and uploads
 - Oracle verifies with indexer that recall is ongoing and suggests that the customer requests refund
 - Create a smart contract pool with funds equivalent of the recall quantity price in algos or stablecoin
-- When customer item is verified through oracle and customer requests refund. 
+- Customer item is verified through oracle and customer requests refund. 
 - Oracle directs refund smart contract to appropriate company pool and requests a txn. company sends txn with notefield of recall item and code.
 - Company can track all refunds using their own indexer parameters
 
