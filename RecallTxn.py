@@ -29,9 +29,9 @@ def wait_for_confirmation(client, transaction_id, timeout):
 
 
 def parse_into_json():
-    # dates and recall type
+    # dates (YYYYMMDD) and recall type(food, device, drug)
     date1 = 20201201
-    date2 = 20201202
+    date2 = 20201225
     recall_type = "food"
 
     url = "https://api.fda.gov/" + recall_type + \

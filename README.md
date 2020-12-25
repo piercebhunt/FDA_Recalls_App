@@ -1,7 +1,6 @@
-Description
+**Description**
 
 Python application to store OpenFDA Recall JSON results on Algorand. This application focuses on the dates of 12/01/20 to 12/02/20 for Food Recalls specifically. This app can encompass other date timelines and incorporate food, drug, or medical device recalls.
-
 
 Requirements
 
@@ -9,14 +8,11 @@ Requirements
 
 - Python Algorand SDK
 
-
 Additional Resources of Use
 
 - Read and Write to the Transaction Note Field with Python Tutorial
 
 - Indexer Algorand Documentation
-
-
 
 Future Improvements
 
@@ -25,7 +21,7 @@ Future Improvements
 - Customer locates recall item and scans/inputs UPC(or UDI for Medical Recalls) and uploads
 - Oracle verifies with indexer that recall is ongoing and suggests that the customer requests refund
 - Create a smart contract pool with funds equivalent of the recall quantity price in algos or stablecoin
-- Customer item is verified through oracle and customer requests refund. 
+- Customer item is verified through oracle and customer requests refund.
 - Oracle directs refund smart contract to appropriate company pool and requests a txn
 - Company sends refund txn with notefield of recall item and code.
 - Company can track all their recall refunds using their own indexer parameters
