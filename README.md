@@ -25,6 +25,5 @@ Future Improvements
 BENEFITS of this application
 -Ease of refunds for consumers
 -More transparency in the recall industry
--Chance to reward recall customers in a different way such as tokenized rewards to help repair brand damage ( think Coca-Cola reward points in token form - redeemable through
-online purchase of Coca-Cola products)
+-Chance to reward recall customers in a different way such as tokenized rewards to help repair brand damage
 -this app could ease the burden of recall recovery efforts/time for small businesses to large businesses
