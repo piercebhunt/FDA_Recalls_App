@@ -1,3 +1,5 @@
+### FDA Recalls App
+
 **Description**
 
 Python application to store OpenFDA Recall JSON results on Algorand. This application focuses on the dates of 12/01/20 to 12/02/20 for Food Recalls specifically. This app can encompass other date timelines and incorporate food, drug, or medical device recalls.
