@@ -30,7 +30,7 @@ Python application to store OpenFDA Recall JSON results on Algorand. This applic
 
 **Benefits of this application**
 
-- Ease of refunds for consumers
-- More transparency in the recall industry
-- Chance to reward recall customers in a different way such as tokenized rewards to help repair brand damage
-- This application could ease the burden of recall recovery efforts/time for small businesses to large businesses
+- Potential for refunds for consumers
+- More transparency and accountability in the recall industry
+- Potential to reward recall customers in a different way such as tokenized rewards to help repair brand damage
+- Improving on this application could ease the burden of recall recovery efforts/time for small businesses to large businesses
