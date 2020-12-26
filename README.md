@@ -28,7 +28,7 @@ Python application to store OpenFDA Recall JSON results on Algorand. This applic
 - Company sends refund txn with notefield of recall item and code.
 - Company can track all their recall refunds using their own indexer parameters
 
-### Benefits of this application
+### Benefits of this Application
 
 - Potential for refunds for consumers
 - More transparency and accountability in the recall industry
