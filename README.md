@@ -12,11 +12,11 @@ Python application to store OpenFDA Recall JSON results on Algorand and then ind
 
 ### Additional Resources of Use
 
-- Read and Write to the Transaction Note Field with Python Algorand Tutorial
+- [Read and Write to the Transaction Note Field with Python Algorand Tutorial](https://developer.algorand.org/tutorials/v2-read-and-write-transaction-note-field-python/)
 
-- Indexer Algorand Documentation
+- [Indexer Algorand Documentation Note Field Searching](https://developer.algorand.org/docs/features/indexer/)
 
-- Developer Office Hours | How to set up your Algorand Sandbox Environment 
+- [Developer Office Hours | How to set up your Algorand Sandbox Environment](https://www.youtube.com/watch?v=OOlUXonYTNA&t=714s) 
   
 
 ### Future Improvements
