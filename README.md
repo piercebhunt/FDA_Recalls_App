@@ -20,10 +20,9 @@ Python application to store OpenFDA Recall JSON results on Algorand and then ind
 
 - FDA could send txn with data encoded in notefield to an FDA receiver account
 - Build interface for customers to create an Algorand account and scan receipts looking for recalls
-- Customer locates recall item and scans/inputs UPC(or UDI for Medical Recalls) and uploads
-- Index the recall txn note and decode to confirm the recall is ongoing and suggest that the customer requests refund
-- Create a smart contract pool with funds equivalent of the recall quantity price in algos or stablecoin
-- Customer recall item UPC/UDI is verified through oracle and customer requests refund.
+- Customer locates recall item and scans/inputs UPC(or UDI for Medical Recalls)
+- Index recall items and confirm recall is Ongoing
+- Customer recall item UPC/UDI code is verified through oracle 
 - Company sends refund txn with notefield of recall item and code.
 - Company can track all their recall refunds using their own indexer parameters
 
