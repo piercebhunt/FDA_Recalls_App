@@ -81,7 +81,7 @@ def send_note():
     algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     algod_client = algod.AlgodClient(algod_token, algod_address)
 
-    passphrase = "stumble bicycle young arrest atom arrest awful link rival dog topic fancy angry side nominee orchard shell route split elbow invite foot negative about script"
+    passphrase = ""
     private_key = mnemonic.to_private_key(passphrase)
     my_address = mnemonic.to_public_key(passphrase)
     print(f'My address: {my_address}')
@@ -91,7 +91,7 @@ def send_note():
     params.fee = 1000
     json_note = parse_into_json()
     note = json_note.encode()
-    receiver = "VHFDGMO3MA2VV2NDMOVFT5LC3R5C3NAUJKO2JR3O25HX5ELIKQJSPY5H5Q"
+    receiver = ""
 
     unsigned_txn = PaymentTxn(my_address, params, receiver, 100000, None, note)
 
