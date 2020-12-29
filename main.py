@@ -67,7 +67,7 @@ def parse_into_json():
     # find number of results with index starting at 0
     parse_final_value = int(url_Number) - 1
 
-    # Add prefix FDA Food to specified set of results, 0 to parse_final_value
+    # Add prefix FDAF to specified set of results, 0 to parse_final_value
     results_location = 0
     result = results_only[results_location]
 
