@@ -73,7 +73,7 @@ By placing recall data on an immutable ledger such as Algorand, an environment o
 3. Run `Indexer.py` file
 
 ### Final Step
-1. Indexer should now have successfully indexed all transactions with `'<your prefix>'` 
+1. Indexer should now have successfully indexed all recall data encoded into the notefield of the transactions with `'<your prefix>'` 
 
 
   
