@@ -57,7 +57,8 @@ def parse_into_json():
     results_only = upd_parsed["results"]
 
     # declare which keys to remove to keep data under 1KB
-    remove = ('event_id', 'openfda', 'initial_firm_notification', 'address_2')
+    remove = ('event_id', 'openfda', 'initial_firm_notification',
+              'address_2')
 
     # use for loop to remove elements to keep data under 1KB
     for element in results_only:
@@ -68,7 +69,7 @@ def parse_into_json():
     parse_final_value = int(url_Number) - 1
 
     # Add prefix FDAF to specified set of results, 0 to parse_final_value
-    results_location = 0
+    results_location = 7
     result = results_only[results_location]
 
     json_note = json.dumps(result)
@@ -117,9 +118,6 @@ def send_note():
         json.dumps(confirmed_txn, indent=2)))
     print("Decoded note: {}".format(base64.b64decode(
         confirmed_txn["txn"]["txn"]["note"]).decode()))
-    # fda_dict = json.loads(base64.b64decode(
-    # confirmed_txn["txn"]["txn"]["note"]).decode())
-    #print("FDA Recall = {}".format(fda_dict["FDA"]))
 
 
 send_note()
