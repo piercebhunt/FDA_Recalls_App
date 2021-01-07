@@ -69,7 +69,7 @@ def parse_into_json():
     parse_final_value = int(url_Number) - 1
 
     # Add prefix FDAF to specified set of results, 0 to parse_final_value
-    results_location = 7
+    results_location = 12
     result = results_only[results_location]
 
     json_note = json.dumps(result)
