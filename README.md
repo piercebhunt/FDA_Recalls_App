@@ -1,4 +1,5 @@
 # **FDA Recalls Application**
+Data provided by the U.S. Food and Drug Administration (https://open.fda.gov)
 
 ## Overview
 
